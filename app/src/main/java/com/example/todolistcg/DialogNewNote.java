@@ -33,7 +33,7 @@ public class DialogNewNote extends AppCompatDialogFragment {
 
 
         builder.setView(dialogView)
-                .setMessage("Añadir una nueva nota");
+                .setMessage("Añadir una nueva nota y comprobando que funciona nuestro controlador de versiones");
 
         buttonCancel.setOnClickListener(new View.OnClickListener() {
             @Override
