@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--Añadiremos un icono con el simbolo + para crear una nueva nota-->
+    <item android:id="@+id/actio_add"
+        android:icon="@drawable/baseline_add_black_24"
+        android:title="@string/action_add"
+        app:showAsAction="ifRoom"/>
+
+</menu>
